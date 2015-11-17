@@ -18,7 +18,7 @@ public class Hipster
 		hipsterPhrases[0] = "That is so mainstream!";
 		hipsterPhrases[1] = "Insert sarcastic phrase here.";
 		hipsterPhrases[2] = "lol";
-		hipsterPhrases[3] = "lolol";
+		hipsterPhrases[3] = "I was into Minecraft before it was cool.";
 	}
 
 	public String getName()
