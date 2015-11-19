@@ -6,7 +6,7 @@ import hipster.model.Hipster;
 /**
  * This class is the main controller for the program
  * @author thod0127
- * @version 0.1
+ * @version 0.2
  */
 public class HipsterController
 {
@@ -22,8 +22,15 @@ public class HipsterController
 	public void start()
 	{
 		String myName = baseFrame.getResponse("What your name?");
-		firstHipster.setName(myName);
-		baseFrame.setTitle(myName + "'s Hipster Project!");
+		if(myName.equals(""))
+		{
+			firstHipster.setName("User");
+		}
+		else
+		{
+			firstHipster.setName(myName);
+		}
+		baseFrame.setTitle(firstHipster.getName() + "'s Hipster Project!");
 	}
 	
 	public Hipster getFirstHipster()
