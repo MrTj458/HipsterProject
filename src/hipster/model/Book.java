@@ -3,7 +3,7 @@ package hipster.model;
 /**
  * Contains all of the info for the Book class.
  * @author thod0127
- * @version 0.1
+ * @version 0.2
  */
 public class Book
 {
