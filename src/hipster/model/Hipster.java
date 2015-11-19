@@ -1,5 +1,10 @@
 package hipster.model;
 
+/**
+ * Contains all of the code for the Hipster clas.
+ * @author thod0127
+ * @version 0.1
+ */
 public class Hipster
 {
 	private String name;

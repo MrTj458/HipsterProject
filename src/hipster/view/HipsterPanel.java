@@ -11,6 +11,11 @@ import javax.swing.JComboBox;
 import javax.swing.JPanel;
 import javax.swing.SpringLayout;
 
+/**
+ * Contains all of the code foor the HipsterPanel class.
+ * @author thod0127
+ * @version 0.1
+ */
 public class HipsterPanel extends JPanel
 {
 	private HipsterController baseController;

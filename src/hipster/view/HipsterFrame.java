@@ -4,6 +4,11 @@ import javax.swing.JFrame;
 import hipster.controller.HipsterController;
 import javax.swing.JOptionPane;
 
+/**
+ * Contains all of the code for the HipsterFrame class.
+ * @author thod0127
+ * @version 0.1
+ */
 public class HipsterFrame extends JFrame
 {
 	private HipsterController baseController;
