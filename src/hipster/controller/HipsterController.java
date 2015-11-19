@@ -22,16 +22,17 @@ public class HipsterController
 	public void start()
 	{
 		String myName = baseFrame.getResponse("What your name?");
-		if(myName.equals(""))
-		{
-			firstHipster.setName("User");
-		}
-		else
+		if(myName != null && myName.length() >= 1)
 		{
 			firstHipster.setName(myName);
 		}
+		else
+		{
+			firstHipster.setName("User");
+		}
 		baseFrame.setTitle(firstHipster.getName() + "'s Hipster Project!");
 	}
+	
 	
 	public Hipster getFirstHipster()
 	{
