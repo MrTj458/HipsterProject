@@ -8,12 +8,12 @@ import hipster.model.Hipster;
  * @author thod0127
  * @version 0.2
  */
-public class HipsterController
+public class HipsterAppController
 {
 	private HipsterFrame baseFrame;
 	private Hipster firstHipster;
 	
-	public HipsterController()
+	public HipsterAppController()
 	{
 		firstHipster = new Hipster();
 		baseFrame = new HipsterFrame(this);

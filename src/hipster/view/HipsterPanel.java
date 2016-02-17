@@ -1,6 +1,6 @@
 package hipster.view;
 
-import hipster.controller.HipsterController;
+import hipster.controller.HipsterAppController;
 import hipster.model.Book;
 
 import java.awt.Color;
@@ -16,7 +16,7 @@ import javax.swing.*;
  */
 public class HipsterPanel extends JPanel
 {
-	private HipsterController baseController;
+	private HipsterAppController baseController;
 	private SpringLayout baseLayout;
 	private JComboBox<String> phraseComboBox;
 	private JLabel bookPageCountLabel;
@@ -28,7 +28,7 @@ public class HipsterPanel extends JPanel
 	private int maxClicks;
 	private int startClick;
 	
-	public HipsterPanel(HipsterController baseController)
+	public HipsterPanel(HipsterAppController baseController)
 	{
 		this.baseController = baseController;
 		baseLayout = new SpringLayout();

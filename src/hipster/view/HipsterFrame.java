@@ -1,7 +1,7 @@
 package hipster.view;
 
 import javax.swing.JFrame;
-import hipster.controller.HipsterController;
+import hipster.controller.HipsterAppController;
 import javax.swing.JOptionPane;
 
 /**
@@ -11,10 +11,10 @@ import javax.swing.JOptionPane;
  */
 public class HipsterFrame extends JFrame
 {
-	private HipsterController baseController;
+	private HipsterAppController baseController;
 	private HipsterPanel basePanel;
 	
-	public HipsterFrame(HipsterController baseController)
+	public HipsterFrame(HipsterAppController baseController)
 	{
 		this.baseController = baseController;
 		basePanel = new HipsterPanel(baseController);
@@ -37,7 +37,7 @@ public class HipsterFrame extends JFrame
 		this.setVisible(true);
 	}
 	
-	public HipsterController getBaseController()
+	public HipsterAppController getBaseController()
 	{
 		return baseController;
 	}
